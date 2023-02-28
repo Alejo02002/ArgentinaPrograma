@@ -6,7 +6,7 @@ public class Clase01Ejercicios {
 	public static void main(String[] args) {
 		
 		//Imprimir enteros entre dos variables
-		int numeroInicio = 6;
+		int numeroInicio = 10;
 		int numeroFinal = 14;
 		
 		while (numeroInicio <= numeroFinal) {
