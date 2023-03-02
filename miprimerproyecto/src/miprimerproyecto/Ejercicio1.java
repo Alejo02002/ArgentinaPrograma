@@ -22,7 +22,7 @@ public class Ejercicio1 {
 		
 		// OPERACIONES BASICAS
 		int i      = 12;
-		int j      = 10;
+		int j      = 12;
 		int suma   = 10 + 20;
 		int resta  = 15 - 12;
 		int mult   = 10 * 3;
