@@ -7,7 +7,7 @@ public class Ejercicio1 {
 	char unaLetra = 'a';   
 	boolean unValorBooleano = true;
 	int miPrimerContador = 66;
-	double unValor = 1.68;
+	double unValor = 1.69;
 	float otroNum = 2.344f;
 	
 	public static void main(String[] args) {
