@@ -5,7 +5,7 @@ public class Ejercicio1 {
 // Java - Sintaxis Básica - Variables y Tipos de datos primitivos
 	
 	char unaLetra = 'a';   
-	boolean unValorBooleano = true;
+	boolean unValorBooleano = false;
 	int miPrimerContador = 66;
 	double unValor = 1.68;
 	float otroNum = 2.344f;
