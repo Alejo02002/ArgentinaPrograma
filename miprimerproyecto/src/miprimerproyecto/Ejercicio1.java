@@ -21,7 +21,7 @@ public class Ejercicio1 {
 		
 		
 		// OPERACIONES BASICAS
-		int i      = 12;
+		int i      = 13;
 		int j      = 10;
 		int suma   = 10 + 20;
 		int resta  = 15 - 12;
