@@ -8,6 +8,7 @@ public class Ejercicio1 {
 	boolean unValorBooleano = false;
 	int miPrimerContador = 66;
 	double unValor = 1.5;
+
 	float otroNum = 2.344f;
 	
 	public static void main(String[] args) {
