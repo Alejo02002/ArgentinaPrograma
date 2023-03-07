@@ -1,4 +1,4 @@
-package miprimerproyecto;
+package miprimerproyecto.Clase01;
 
 import java.util.Scanner;
 

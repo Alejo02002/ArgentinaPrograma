@@ -1,11 +1,11 @@
-package miprimerproyecto;
+package miprimerproyecto.Clase01;
 
 import java.util.Scanner;
 
 public class PrestamoHerramienta {
 
 	public static void main(String[] args) {
-		
+
 		Scanner sc = new Scanner(System.in);
 		
 		boolean estaandando = true;
@@ -50,7 +50,6 @@ public class PrestamoHerramienta {
 			
 			
 		}
-
 	}
 
 }
