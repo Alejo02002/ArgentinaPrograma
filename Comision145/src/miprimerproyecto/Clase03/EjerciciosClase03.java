@@ -2,6 +2,7 @@ package miprimerproyecto.Clase03;
 
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.Comparator;
 
 
 public class EjerciciosClase03 {
@@ -27,7 +28,8 @@ public class EjerciciosClase03 {
 		System.out.println("b) Dados 3 números y un orden (ascendente o decreciente) que ordene los\r\n"
 				+ "mismos y los retorne en un vector de 3\r\n");
 		
-		int numeros[] = {-2,23,0};
+		//Uso Integer para poder utilizar el metodo sort con reverseOrder
+		Integer numeros[] = {-2,23,0};
 		boolean ascendente = true; //false
 		
 		if(ascendente) {
@@ -35,7 +37,9 @@ public class EjerciciosClase03 {
 			Arrays.sort(numeros);
 		}else {
 			//Ordenar de mayor a menor
-		//	Arrays.sort(numeros, Collections.reverseOrder());
+			Arrays.sort(numeros, Collections.reverseOrder());
+			
+			//int[] reverseArr = IntStream.rangeClosed(1, arr.length).map(i -> arr[arr.length-i]).toArray();
 		}
 		for(int elemento : numeros) {
 			System.out.println(elemento);

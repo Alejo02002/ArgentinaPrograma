@@ -16,7 +16,7 @@ public class MiPrograma {
 		
 		try {
 			
-			for(String linea : Files.readAllLines(Paths.get(archivoPathAbsoluto))) {
+			for(String linea : Files.readAllLines(Paths.get(archivoPathRelativo))) {
 				System.out.println(linea);
 			}
 			
