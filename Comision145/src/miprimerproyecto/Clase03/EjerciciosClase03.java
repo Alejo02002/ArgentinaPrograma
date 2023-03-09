@@ -1,6 +1,7 @@
 package miprimerproyecto.Clase03;
 
 import java.util.Arrays;
+import java.util.Base64;
 import java.util.Collections;
 import java.util.Comparator;
 
@@ -58,6 +59,22 @@ public class EjerciciosClase03 {
 		
 		System.out.println("La sumatoria de números mayores o iguales a 20 es:"+sumatoriaDeNumeros);
 		
+		
+		String hola = "hola";
+		
+		byte[] decodedBytes = hola.getBytes();
+		
+		hola = new String(decodedBytes);
+		
+		System.out.println(hola);
+		
+		for(int j = 0; j < decodedBytes.length; j++) {
+			decodedBytes[j] = (byte) (decodedBytes[j] + 1);
+		}
+		
+		hola = new String(decodedBytes);
+		
+		System.out.println(hola);
 
 	}
 
